@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "0b724f43-46d7-4f3d-bab7-0e9d81ea18ea",
+		"name": "Spring boot Apache Kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8156295"
+	},
+	"item": [
+		{
+			"name": "Enviando mensaje",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"segunda prueba enviando mensaje\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/spring-kafka-provider/api/v1/messages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"spring-kafka-provider",
+						"api",
+						"v1",
+						"messages"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
