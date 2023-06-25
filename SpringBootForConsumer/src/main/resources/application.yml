@@ -1,0 +1,13 @@
+#configuration
+server:
+  port: 8081
+  contextPath: /${spring.application.name}
+  servlet:
+    context-path: /${spring.application.name}
+  error:
+    include-message: always
+    include-exception: true
+
+spring:
+  application:
+    name: spring-kafka-consumer

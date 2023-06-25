@@ -1,0 +1,17 @@
+#configuration
+server:
+  port: 8080
+  contextPath: /${spring.application.name}
+  servlet:
+    context-path: /${spring.application.name}
+  error:
+    include-message: always
+    include-exception: true
+
+spring:
+  application:
+    name: spring-kafka-provider
+
+#kafka configuration
+  kafka:
+    bootstrapServers: localhost:9092
