@@ -11,3 +11,7 @@ server:
 spring:
   application:
     name: spring-kafka-consumer
+
+#kafka configuration
+  kafka:
+    bootstrapServers: localhost:9092
